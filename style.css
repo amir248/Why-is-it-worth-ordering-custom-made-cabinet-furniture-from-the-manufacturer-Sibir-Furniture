@@ -4,25 +4,38 @@
 }
 body{
     background-color: antiquewhite;
-
+    font-size: 20px;
+    font-size: arial;
 }
 main{
     display:flex;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* max-width: 1300px; */
+    width:100%;
 }
 article{
     display:block;
     width:100%;
+    max-width: 1300px;
 }
 article > picture > img{
     width:100%;
     max-width:500px;
     object-fit: cover;
     float:right;
+    margin-left:15px;
+    border-radius: 7% 0 0 7%;
 }
 @media(max-width:700px){
     article > picture > img{
         width:100%;
         max-width: 100%;
+        margin:0;
+        border-radius:0;
     }
+}
+article > p{
+    margin:1%;
 }
