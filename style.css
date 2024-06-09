@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    border:0;
+}
+body{
+    background-color: antiquewhite;
+
+}
+main{
+    display:flex;
+
+}
+article{
+    display:block;
+    width:100%;
+}
+article > picture > img{
+    width:100%;
+    max-width:500px;
+    object-fit: cover;
+    float:right;
+}
+@media(max-width:700px){
+    article > picture > img{
+        width:100%;
+        max-width: 100%;
+    }
+}
