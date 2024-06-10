@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amir248.github.io/Why-is-it-worth-ordering-custom-made-cabinet-furniture-from-the-manufacturer-Sibir-Furniture/sitemap.xml
